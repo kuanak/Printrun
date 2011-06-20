@@ -42,7 +42,7 @@ class PronterWindow(wx.Frame,pronsole.pronsole):
     def __init__(self, filename=None,size=winsize):
         self.filename=filename
         os.putenv("UBUNTU_MENUPROXY","0")
-        wx.Frame.__init__(self,None,title="Printer Interface",size=size);
+        wx.Frame.__init__(self,None,title="Chen Lab Printer Interface",size=size);
         self.panel=wx.Panel(self,-1,size=size)
         self.p=printcore.printcore()
         self.statuscheck=False
