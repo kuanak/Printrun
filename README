@@ -1,3 +1,8 @@
+Getting ready for ChenLab commits: 
+Installed arduino-0022, pyreadline-1.7, pyserial-2.5 
+Followed instructions on kliment/Printrun in the README file: commit: 75a07e98fc2ea9964d639e083f754aec6208dc2c
+########################################################################
+
 This is a python-based host software for reprap printers, in various forms.
 
 Printrun consists of printcore, pronsole and pronterface, and a small collection of helpful scripts.
